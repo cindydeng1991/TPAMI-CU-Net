@@ -23,4 +23,10 @@ If you find our work useful in your research or publications, please consider ci
 The RGB/Multi-spectral dataset is from Columbia multi-spectral [database](https://www.cs.columbia.edu/CAVE/databases/multispectral/).
 The Flash/Non-flash dataset is from [Aksoy et al. ECCV2018](http://yaksoy.github.io/flashambient/). The multi-exposure dataset is from [SICE](https://github.com/csjcai/SICE).
 2. Generate the training samples following Step 1 to Step 3 in the Generate_training_data file.
-3. 
+3. Put the training data in the root directory, and run the command  
+> python training_MIR_task  
+for multi-modal image restoration tasks, including RGB guided depth image SR, RGB guided MS image SR, Flash gudied non-flash image denoising, etc.     
+Run the command    
+> python training_MIF_task  
+for multi-modal image fusion tasks, including multi-exposure image fusion, multi-focus image fusion, etc.
+
