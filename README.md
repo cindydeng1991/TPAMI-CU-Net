@@ -19,5 +19,6 @@ If you find our work useful in your research or publications, please consider ci
 - Matlab>=2017a
 
 ## Train
-1. Download training dataset.  
+1. Download training dataset.  The RGB/Depth training dataset is from [DPDN](https://github.com/griegler/primal-dual-networks), and can be downloaded from [Googledrive](https://drive.google.com/file/d/14fEIIg7tTxAxz61QsFQqz1ADVDkJG4xW/view?usp=sharing).
+The RGB/Multi-spectral dataset is from Columbia multi-spectral [database](https://www.cs.columbia.edu/CAVE/databases/multispectral/).
 
