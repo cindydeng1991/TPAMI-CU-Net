@@ -27,6 +27,16 @@ The Flash/Non-flash dataset is from [Aksoy et al. ECCV2018](http://yaksoy.github
 "python training_MIR_task"  
 for multi-modal image restoration tasks, including RGB guided depth image SR, RGB guided MS image SR, Flash gudied non-flash image denoising, etc.     
 Run the command    
-"python training_MIF_task" 
+"python training_MIF_task"   
 for multi-modal image fusion tasks, including multi-exposure image fusion, multi-focus image fusion, etc.
+4. The training model will be saved and later used for testing.
+
+## Test
+1. Generate the testing data using the same way the training data.
+2. For the MIR related tasks, run the command  
+"python testing_MIR_task"
+3. For the MIF related tasks, run the command  
+"python testing_MIF_task"
+
+The testing datasets and our results in the paper can be downloaded from [Googledrive](https://drive.google.com/file/d/1eYaULXvqNqzHZlK5jVcsz7IvtfmhwrQw/view?usp=sharing).
 
