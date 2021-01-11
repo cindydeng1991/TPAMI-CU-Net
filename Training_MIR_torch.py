@@ -11,7 +11,7 @@ from torch.autograd import Variable
 import matplotlib.pyplot as plt
 from torchvision import transforms
 from CUdata_npy import cudataset
-from oldCUNet import CUNet
+from CUNet import CUNet
 from torch.utils.data import DataLoader
 import cv2
 
