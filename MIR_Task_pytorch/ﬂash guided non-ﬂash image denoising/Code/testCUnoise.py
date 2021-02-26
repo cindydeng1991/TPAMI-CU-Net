@@ -13,17 +13,16 @@ import torch
 class cudatatest(data.Dataset):
     def __init__(self):
         super(cudatatest, self).__init__()
-        # self.depth = np.load('testset/data_d1.npy',allow_pickle=True)#(batch,height,width,c)
         self.depth = np.load('noise_testset/data_n.npy', allow_pickle=True)  # (batch,height,width,c)
         self.depth = np.transpose(self.depth, (0, 3, 1, 2))
         self.depth_t = torch.from_numpy(self.depth)
 
-        # self.gt = np.load('testset/data_g1.npy',allow_pickle=True)  # (batch,height,width,c)
+
         self.gt = np.load('noise_testset/gt.npy', allow_pickle=True)  # (batch,height,width,c)
         self.gt = np.transpose(self.gt, (0, 3, 1, 2))
         self.gt_t = torch.from_numpy(self.gt)
 
-        # self.rgb = np.load('testset/data_c1.npy',allow_pickle=True)  # (batch,height,width,c)
+
         self.rgb = np.load('noise_testset/data_f.npy', allow_pickle=True)  # (batch,height,width,c)
         self.rgb = np.transpose(self.rgb, (0, 3, 1, 2))
         self.rgb_t = torch.from_numpy(self.rgb)
