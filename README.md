@@ -34,5 +34,6 @@ for multi-modal image fusion tasks, including multi-exposure image fusion, multi
 1. Generate the testing data using the same way the training data.
 2. For the MIR related tasks, run the command "python test.py" in file "MIR_Task_pytorch" 
 3. For the MIF related tasks, run the command "python test.py" in file "MIF_Task_pytorch"
+
 The testing datasets and our results in the paper can be downloaded from [Googledrive](https://drive.google.com/file/d/1eYaULXvqNqzHZlK5jVcsz7IvtfmhwrQw/view?usp=sharing).
 
