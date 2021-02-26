@@ -10,9 +10,8 @@ import torch.optim as optim
 from torch.autograd import Variable
 import matplotlib.pyplot as plt
 from torchvision import transforms
-from testdata import cudataset
-from testCUData import cudatatest1
-from testCUData import cudatatest2
+from testdata import cudatatest1
+from testdata import cudatatest2
 from CUNet import CUNet
 from torch.utils.data import DataLoader
 import cv2
