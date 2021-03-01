@@ -24,7 +24,6 @@ The RGB/Multi-spectral dataset is from Columbia multi-spectral [database](https:
 The Flash/Non-flash dataset is from [Aksoy et al. ECCV2018](http://yaksoy.github.io/flashambient/). The multi-exposure dataset is from [SICE](https://github.com/csjcai/SICE).
 2. Generate the training samples following Step 1 to Step 3 in the Generate_training_data file.
 3. Put the training data in the root directory.
-
 Run the command "python train.py" in file "MIR_Task_pytorch" 
 
 for multi-modal image restoration tasks, including RGB guided depth image SR,Flash gudied non-flash image denoising, etc. 
