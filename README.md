@@ -26,14 +26,14 @@ The Flash/Non-flash dataset is from [Aksoy et al. ECCV2018](http://yaksoy.github
 3. Put the training data in the root directory.
 Run the command "python train.py" in file "MIR_Task_pytorch" 
 for multi-modal image restoration tasks, including RGB guided depth image SR,Flash gudied non-flash image denoising, etc. 
-Run the command "python train.py" in file "MIF_Task_pytorch"
+Run the command "python MIF_train.py" in file "MIF_Task_pytorch"
 for multi-modal image fusion tasks, including multi-exposure image fusion, multi-focus image fusion, etc.
 4. The training model will be saved and later used for testing.
 
 ## Test
 1. Generate the testing data using the same way the training data.
 2. For the MIR related tasks, run the command "python test.py" in file "MIR_Task_pytorch" 
-3. For the MIF related tasks, run the command "python test.py" in file "MIF_Task_pytorch"
+3. For the MIF related tasks, run the command "python MIF_test.py" in file "MIF_Task_pytorch"
 
 The testing datasets and our results in the paper can be downloaded from [Googledrive](https://drive.google.com/file/d/1eYaULXvqNqzHZlK5jVcsz7IvtfmhwrQw/view?usp=sharing).
 
